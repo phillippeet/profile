@@ -1,0 +1,128 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body{
+  background-color: #1b1c1e;
+  color: #f2f2f2;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  padding: 30px;
+  margin: 0;
+}
+
+.follow{
+  color: #ff385c;
+  font-size: 26px;
+  position: absolute;
+  top: 40px;
+  right: 40px
+}
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+h1, h2{
+  color: #ff385c
+}
+h2{
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: -10px 0 0;
+}
+
+.btn-pink {
+  color: #ff385c;
+  border: 2px solid #ff385c;
+  padding: 15px 30px;
+  margin: 20px 0 0;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.btn-pink:hover {
+  background-color: #ff385c;
+  border: 2px solid #ff385c;
+  color: #f2f2f2;
+  transition: 0.3s
+}
+
+.card{
+  padding: 40px
+}
+
+.card-dark{
+  background: #2a2a2a;
+}
+
+.card-color{
+  background: #ff385c;
+  padding: 10px
+}
+
+.border-radius-top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.border-radius-bottom{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#corner-radius{
+  border-radius: 15px;
+}
+
+.social li{
+  display: inline;
+}
+.social a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 26px;
+  margin-right: 8px;
+}
+
+@media (max-width: 767px) {
+  h1{
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  h2{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 599px) {
+  body{
+    padding: 0;
+    background: #2a2a2a;
+  }
+  .card{
+    padding: 20px 20px 140px;
+
+  }
+  .card-color{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0;
+  padding: 5px 0 0
+  }
+  .social a{
+  margin-right: 15px;
+  }
+}
